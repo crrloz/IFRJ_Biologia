@@ -1,7 +1,7 @@
-# HTML/CSS - BIOLOGIA
-### YU E MICAEL
+# DESIGN/WEB - BIOLOGIA
+### Carlos e Adriano 
 
-Esse arquivo é um pequena guia com os comando do git da parte de frontend. além de que serve como entendimento geral 
+Esse arquivo é um pequena guia com os comando do git da parte de design. além de que serve como entendimento geral 
 ## Vantagens do uso:
 - atualização dos códigos
 - trabaho em equipe
@@ -11,11 +11,10 @@ Esse arquivo é um pequena guia com os comando do git da parte de frontend. alé
 
 ### !Importante!
 crie um clone do projeto no seu computador!
+
 ```git
 git clone "https://github.com/Ocamilinho/IFRJ_Biologia/"
 ```
-
-
 
 existem algumas principais ações para uso do git. Veja:
 
