@@ -9,7 +9,7 @@ Esse arquivo é um pequena guia com os comando do git da parte de frontend. alé
 
 ## Comandos principais:
 
-###!Importante!
+### !Importante!
 crie um clone do projeto no seu computador!
 ```git
 git clone "https://github.com/Ocamilinho/IFRJ_Biologia/"
