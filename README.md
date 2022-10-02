@@ -36,7 +36,10 @@ git init                      \\ Inicia o monitoramento da pasta
 Para conseguirmos subir os arquivos no "servidor",precisamos necessariament estar conectado com ele e saber manusear as branchs que funcionam como pequenas áreas de trabalho onde podemos salvar partes dos projeto
 
 ```git
+<<<<<<< HEAD
 git remote remove origin \\ Caso der erro ao usar git remote add...
+=======
+>>>>>>> 2d8a1bcb509e2e70e944635402b76ced5b2a0eeb
 git remote add origin https://github.com/[username]/IFRJ_Biologia/  \\ Sincronizaçao com o projeto(Mudem apenas o link)
 git checkout [Nome da branch]                                       \\ Mobilidade entre as branchs
 ```
