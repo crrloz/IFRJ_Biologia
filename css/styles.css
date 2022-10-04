@@ -1,15 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: "Inter Tight";
 }
 
 .titulo{
-    background-color: #121212;
+    background-color: #3f3f3f;
     color: white;
-    padding: 10px;
-    margin: 0px 0px 4px 0px;
+    padding: 15px;
+    margin: 0px 0px 10px 0px;
 }
