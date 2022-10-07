@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,12 +8,64 @@
     font-family: "Inter Tight";
 }
 
-.titulo{
+html {
+    scroll-behavior: smooth;
+}
+
+.titulo {
     background-color: #3f3f3f;
     color: white;
     padding: 15px;
 }
 
-.texto{
-    margin: 10px;
+a {
+    color: #000;
+}
+
+.img {
+    height: 300px;
+    width: 900px;
+    background-image: url("../img/img-teste.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.conteudo {
+    display: flex;
+    margin-top: 120px;
+}
+
+.conteudo-principal {
+    padding: 50px;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    width: 80%;
+}
+
+#info {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.texto {
+    width: 75%;
+}
+
+.sidebar {
+    padding: 30px;
+    border-top: 1px solid #000;
+    width: 20%;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul li {
+    border-top: 1px solid #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
