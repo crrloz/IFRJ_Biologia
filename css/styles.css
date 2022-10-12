@@ -12,6 +12,23 @@ html {
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar{
+    width: 1.5em;
+    height: 1em;
+}
+::-webkit-scrollbar-track{
+    background: #f88f06;
+    border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(0, 51, 50);
+    border: .25em solid #f88f06;
+    border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(red,blue); 
+}
+
 .titulo {
     background-color: #3f3f3f;
     color: white;
