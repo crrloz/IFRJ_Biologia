@@ -17,16 +17,16 @@ html {
     height: 1em;
 }
 ::-webkit-scrollbar-track{
-    background: #f88f06;
+    background: #ffffff;
     border-radius: 100vw;
 }
 ::-webkit-scrollbar-thumb{
-    background: rgb(0, 51, 50);
-    border: .25em solid #f88f06;
+    background: rgb(0, 85, 41);
+    border: .25em solid #ffffff;
     border-radius: 100vw;
 }
 ::-webkit-scrollbar-thumb:hover{
-    background: linear-gradient(red,blue); 
+    background: linear-gradient(rgb(0, 255, 60),rgb(255, 251, 0)); 
 }
 
 .titulo {
