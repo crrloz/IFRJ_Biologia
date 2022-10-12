@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Inter Tight";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 1.5em;
+    height: 1em;
+}
+::-webkit-scrollbar-track{
+    background: #ffffff;
+    border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(0, 85, 41);
+    border: .25em solid #ffffff;
+    border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(rgb(0, 255, 60),rgb(255, 251, 0)); 
+}
+.titulo {
+    background-color: #3f3f3f;
+    color: white;
+    padding: 0 400px 0 60px;
+}
+
+a {
+    color: #000;
+}
+
+.img {
+    height: 200px;
+    width: 95%;
+    background-image: url("../img/img-teste.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.conteudo {
+    display: flex;
+    margin-top: 20px;
+}
+
+.conteudo-principal {
+    padding: 50px;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    width: 80%;
+}
+
+#info {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.texto {
+    width: 75%;
+}
+
+.sidebar {
+    padding: 30px;
+    border-top: 1px solid #000;
+    width: 20%;
+}
+
+.header {
+    width: 100%;
+    top: 0;
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+}
+
+nav {
+    margin-left: 30%;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    height: 45px;
+    width: 570px;
+    background-color: #b2b2b295;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 10 30px 10 11%;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #35278f;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 10px;
+    border-radius: 16px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: #8f2727;
+    color: #eee; /* cor de teste para dar contraste com o fundo*/
+}
+
+@media (max-width: 800px) {
+    nav {
+        margin-left: 0px;
+    }
+}
