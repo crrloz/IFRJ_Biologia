@@ -51,6 +51,7 @@ a {
 .conteudo {
     display: flex;
     margin-top: 20px;
+    justify-content: space-between;
 }
 
 .conteudo-principal {
@@ -60,20 +61,33 @@ a {
     width: 80%;
 }
 
-#info {
-    font-size: 15px;
-    color: #444;
-    margin-bottom: 10px;
-}
-
 .texto {
     width: 75%;
 }
 
+.curiosidade {
+    color: gray;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
 .sidebar {
     padding: 30px;
-    border-top: 1px solid #000;
     width: 20%;
+    position: sticky;
+    top: 0;
+    height: 30vh;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    padding: 5px;
 }
 
 .header {
