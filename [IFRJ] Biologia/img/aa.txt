@@ -1,0 +1,14 @@
+<div class="texto">
+                    <h1 id="semente">Sementes</h1>
+                    <p>As sementes corresponde ao ávulo maduro e fecundado da palnta. Elas são as estruturas responsáveis por dar a vida a uma nova planta. Ela é constituida normalmente pelas seguintes estruturas: </p><br>
+                    <b><p>(Cada destas tem funções adicionais )</p></b>
+                    <ul style="margin-left: 50px;">
+                        <li>casca (as vezes audente)</li>
+                        <li>embrião</li>
+                        <li>endoesperma</li>
+                    </ul>
+                    <h2 class="curiosidade">Quanto as funções destas:</h2>
+                    <p>A casca é a responsável pela proteção do embrião.  Endoesperma é o tecido que acumula nutrientes/substâncias que alimentarão a planta até que ela seja capaz de realizar a fotossíntese. Já o embrião é o novo indivíduo que é resultante da fecundação.</p>
+                    <h2 class="curiosidade">Curiosidades</h2>
+                    <p>...</p>
+                </div>
